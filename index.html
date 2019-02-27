@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <title>David Rosinski</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" type="image/ico" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="popup" class="popup_window">
+  <div class="popup-content">
+    <section id="popupSection" class="nopad nomargin" data-bind="htmlWithBinding: popupSection"></section>
+  </div>
+</div>
+  <header>
+    <nav>
+      <ul>
+        <li><div class="logo"><p>dr</p></div></li>
+        <li><h1>David Rosinski</h1><h5>Full Stack Developer</h5></li>
+        <li><a href="#" data-bind="css: {active: selectedLink()[0]}, click: show_index"><img class="link_icons" src="Images/Icons/home.png">Home</a></li>
+        <li><a href="#" data-bind="css: {active: selectedLink()[1]}, click: show_projects"><img class="link_icons" src="Images/Icons/briefcase.png">Projects</a></li>
+        <li><a href="#" data-bind="css: {active: selectedLink()[2]}, click: show_about"><img class="link_icons" src="Images/Icons/user-shape.png">About</a></li>
+        <li class="rightlink" data-bind=" css: {active: selectedLink()[3]}, click: show_contact"><a href="#"><img class="link_icons" src="Images/Icons/envelope.png">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="content" class="content">
+    <section class="links">
+        <a href="http://www.linkedin.com/in/david-rosinski-379365135"><img class="connect_image" src="images/icons/linkedin-sign.png"></a></br>
+        <a href="https://github.com/megofast"><img class="connect_image" src="images/icons/github-sign.png"></a>
+    </section>
+    <section id="section1" class="intro" data-bind="htmlWithBinding: section1"></section>
+    <section id="section2" class="featured" data-bind="htmlWithBinding: section2"></section>
+  </div>
+  <footer>
+    <div class="Right_footer_container">
+      <a href="http://www.linkedin.com/in/david-rosinski-379365135"><img class="connect_image" src="images/icons/linkedin-sign(1).png"></a>
+      <a href="https://github.com/megofast"><img class="connect_image" src="images/icons/github-sign(1).png"></a>
+    </div>
+    <div class="left_footer_container">
+      <div class="footer_links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="copy">&copy copyright 2018 By David Rosinski</div>
+      <div class="credit">Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    </div>
+  </footer>
+    <script src="libraries/knockout-3.5.0rc2.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/view-model.js"></script>
+</body>
+</html>

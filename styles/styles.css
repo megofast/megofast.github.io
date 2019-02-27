@@ -1,0 +1,365 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #eee;
+}
+
+.logo {
+  float: left;
+  width: 42px;
+  height: 42px;
+  margin: 4px 0 0 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.logo p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  height: 100%;
+  line-height: 42px;
+}
+
+h1 {
+  margin: 4px 40px 0 10px;
+  padding: 0;
+  font-size: 22px;
+}
+
+h5 {
+  margin: 0 10px 0 10px;
+  color: #6C9A33;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 5px 5px grey;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #94c160;
+}
+
+@media screen and (max-width: 700px) {
+  nav li, nav li.rightlink {
+    float: none;
+  }
+}
+
+.rightlink {
+  float: right;
+  background-color: white;
+}
+
+.active {
+  background-color: #94c160;
+}
+
+.link_icons {
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  width: 100%;
+}
+
+section {
+  padding: 15px;
+  overflow: hidden;
+}
+
+section h3 {
+  border-bottom: 1px solid grey;
+}
+
+.center-container {
+  text-align:center;
+  display:inline-block;
+  width:100%;
+}
+
+.card {
+  margin: 0px 30px 30px 30px;
+  padding: 0;
+  background-color: white;
+  border: 1px solid #bbb;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px 0 lightgrey;
+  transition: 0.3s;
+  vertical-align: top;
+  display: inline-block;
+  text-align: left;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .card {
+    margin: 0px 20px 40px 20px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .card {
+    margin: 0px 10px 20px 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px 0 grey;
+}
+
+.card_image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card_h4 {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.card_h5 {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  color: #6C9A33;
+}
+
+.card_p {
+  margin: 0;
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: relative;
+  height: 70px;
+}
+
+.footer_links {
+  padding: 3px 4px;
+}
+
+.footer_links ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.footer_links li {
+  float: left;
+}
+
+.footer_links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+.copy {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.Right_footer_container {
+  float: right;
+  width: 110px;
+  text-align: right;
+}
+
+.connect_image {
+  margin: 10px 5px 10px 5px;
+  width: 42px;
+  height: 42px;
+}
+
+.credit {
+  font-size: 10px;
+  text-align: center;
+  padding: 0 0 5px 0;
+  word-wrap:break-word;
+}
+
+.links {
+  float: right;
+  padding-bottom: 0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+/* The Modal (background) */
+.popup_window {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.popup-content {
+  margin: auto;
+  padding: 0;
+  background-color: white;
+  border: 1px solid #bbb;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px 0 lightgrey;
+  transition: 0.3s;
+}
+
+/* Modal Content */
+.popup-content2 {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 200px;
+  height: 200px;
+}
+
+.close {
+  position: absolute;
+  margin: auto;
+  color: #aaaaaa;
+  z-index: 2;
+
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nopad {
+  padding: 0;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.popup-git-image {
+  width: 30px;
+  height: 30px;
+  float: right;
+  padding: 10px;
+}
+
+.filter {
+  font-size: 14pt;
+  border:1px solid #cccccc;
+  border-radius: 5px;
+  background: url("../images/icons/search1.png") no-repeat 2px 2px;
+  padding-left: 30px;
+}
+
+.filter-radio {
+  margin-left: 20px;
+}
+
+.highlight {
+  background: #ff0;
+  font-weight: bold;
+}
+
+.skills {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  -webkit-column-rule: 1px solid black;
+  -moz-column-rule: 1px solid black;
+  column-rule: 1px solid black;
+}
+/* 150px per column */
+@media screen and (max-width: 900px) {
+  .skills {
+    column-count: 3;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .skills {
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skills {
+    column-count: 1;
+  }
+}
+
+.skill {
+  display: inline-block;
+  padding: 0 15px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 10px;
+}
+
+.skill img {
+  float: left;
+  margin: 0 5px 0 -15px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
