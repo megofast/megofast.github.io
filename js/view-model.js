@@ -157,7 +157,9 @@ let viewModel = function() {
     self.selectedLink()[2] = true;
     self.selectedLink.valueHasMutated();
 
-    self.section1("<h3>Skills</h3>" +
+    self.section1("<div class='skills-key'><img class='skill-pic' src='Images/skill-high.png' width='30' height='30'>Highly Skilled" +
+    "<img class='skill-pic' src='Images/skill-moderate.png' width='30' height='30'>Moderately Skilled" +
+    "<img class='skill-pic' src='Images/skill-beginner.png' width='30' height='30'>Beginner</div><h3>Skills</h3>" +
     "<div class='skills'><div class='skill'>" +
     "<img src='Images/skill-high.png' width='30' height='30'>" +
     "HTML</div>" +
