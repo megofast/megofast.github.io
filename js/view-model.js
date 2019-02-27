@@ -13,7 +13,7 @@ let viewModel = function() {
     modal.style.display = "block";
     self.popupSection("<article><span class='close' onclick='closePopup()'>&times;</span>" +
     "<img class='card_image' src=" + data.image() + ">" +
-    "<h4 class='card_h4 fix-display'>" + data.name() + "</h4><img class='popup-git-image' src='images/icons/github-sign.png'>" +
+    "<h4 class='card_h4 fix-display'>" + data.name() + "</h4><img class='popup-git-image' src='Images/icons/github-sign.png'>" +
     "<h5 class='card_h5'>" + data.langs() + "</h5>" +
     "<h5 class='card_h5'>" + data.link() + "</h5>" +
     "<p class='card_p'>" + data.description() + "</p>" +
@@ -159,65 +159,65 @@ let viewModel = function() {
 
     self.section1("<h3>Skills</h3>" +
     "<div class='skills'><div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "HTML</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "CSS</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-moderate.png' width='30' height='30'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
     "PHP</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "Javascript</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-moderate.png' width='30' height='30'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
     "ASP</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "SQL</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "Knockout</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-beginner.png' width='30' height='30'>" +
+    "<img src='Images/skill-beginner.png' width='30' height='30'>" +
     "React</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-moderate.png' width='30' height='30'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
     "C</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-moderate.png' width='30' height='30'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
     "C++</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "Java</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "Visual Basic</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "Python</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "Android Mobile</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-moderate.png' width='30' height='30'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
     "Windows Server</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "Windows OS</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-moderate.png' width='30' height='30'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
     "Unix</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-moderate.png' width='30' height='30'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
     "Photoshop</div>" +
     "<div class='skill'>" +
-    "<img src='images/skill-high.png' width='30' height='30'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
     "Microsoft Office</div></div>");
 
     self.section2("<h3>Short Bio</h3>" +
-    "<img src='images/portrait.jpg' align='right'>" +
+    "<img src='Images/portrait.jpg' align='right'>" +
     "<p>My name is Dave. I have been coding since I was approximately 10 years old when I started tinkering with C and C++. " +
     "Back then my knowledge was soley gained on passion, self study, and trial and error. " +
     "I still carry the same passion and drive to learn new languages and frameworks." +
