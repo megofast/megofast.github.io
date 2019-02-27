@@ -267,8 +267,8 @@ footer {
 
 .close {
   position: absolute;
-  margin: auto;
-  color: #aaaaaa;
+  margin: 10px;
+  color: white;
   z-index: 2;
 
   font-size: 28px;
@@ -301,7 +301,7 @@ footer {
   font-size: 14pt;
   border:1px solid #cccccc;
   border-radius: 5px;
-  background: url("../images/icons/search1.png") no-repeat 2px 2px;
+  background: url("../Images/icons/search1.png") no-repeat 2px 2px;
   padding-left: 30px;
 }
 
