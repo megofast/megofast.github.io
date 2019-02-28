@@ -32,12 +32,12 @@ let viewModel = function() {
     self.section1("<h3>Introduction</h3>" +
     "<p>Hello, my name is David Rosinski and I am a developer with over 10 " +
     "years of experience using many different programming languages. This " +
-    "website was designed and created by me. Feel free to give me feedback " +
-    "(positive or constructive)! I am currently expanding my education and " +
-    "employment opportunities by working through Udacity's Full Stack " +
-    "Development training program. If you are interested in getting in touch " +
-    "with me there is a contact link in the header and footer or click " +
-    "<a href='#'>here</a>.</p>");
+    "website was designed and created by me using HTML, CSS, vanilla Javascript, and Knockout. " +
+    "I graduated from Udacity's Full Stack Developer Nanodegree program in January of 2019. " +
+    "I am currently looking for full time employment as a software engineer, full stack developer, or any other related career. " +
+    "The about page has a summary of my skills, however please note that I am always learning new technologies and those skills will likely expand as time passes. " +
+    "If you are interested in getting ahold of me please follow on of the links to my linkedin profile and message me there as I have not yet finished the contacts page. " +
+    "</p>");
 
     self.section2("<h3>Featured Projects</h3>" +
     "<div id='proj' class='center-container' data-bind='foreach: featured'>" +
@@ -221,9 +221,9 @@ let viewModel = function() {
 
     self.section2("<h3>Short Bio</h3>" +
     "<img src='Images/portrait.jpg' align='right'>" +
-    "<p>My name is Dave. I have been coding since I was approximately 10 years old when I started tinkering with C and C++. " +
+    "<p>My name is Dave. I have been coding since I was approximately 12 years old when I started tinkering with C and C++. " +
     "Back then my knowledge was soley gained on passion, self study, and trial and error. " +
-    "I still carry the same passion and drive to learn new languages and frameworks." +
+    "I still carry the same passion and drive to learn new languages and frameworks. " +
     "During the early days I focused mostly on web development and game design. I have several unfinished games " +
     "because I had a tendency to have these elaborate games planned. While in high school I took the only programming class offered which was C and Visual Basic. " +
     "There I excelled and enjoyed having the structure of projects and other students to collaborate with. " +
