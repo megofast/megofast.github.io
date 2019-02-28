@@ -13,9 +13,10 @@ let viewModel = function() {
     modal.style.display = "block";
     self.popupSection("<article><span class='close' onclick='closePopup()'>&times;</span>" +
     "<img class='card_image' src=" + data.image() + ">" +
-    "<h4 class='card_h4 fix-display'>" + data.name() + "</h4><img class='popup-git-image' src='Images/icons/github-sign.png'>" +
+    "<h4 class='card_h4 fix-display'>" + data.name() + "</h4><a target='_blank' href='" + data.link() + "'><img class='popup-git-image' src='Images/icons/github-sign.png'></a>" +
     "<h5 class='card_h5'>" + data.langs() + "</h5>" +
-    "<h5 class='card_h5'>" + data.link() + "</h5>" +
+    "<h5 class='card_h5'><a target='_blank' href='" + data.link() +"'>View Code on Github</a></h5>" +
+    "<h5 class='card_h5'>" + data.other() + "</h5>" +
     "<p class='card_p'>" + data.description() + "</p>" +
     "</article>");
   };

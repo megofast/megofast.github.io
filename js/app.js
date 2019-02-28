@@ -1,13 +1,3 @@
-function addHighlight(preText, highlightText, postText) {
-  
-}
-
-
-function removeHighlight() {
-
-}
-
-
 function closePopup() {
   var popup = document.getElementById('popup');
   popup.style.display = "none";
