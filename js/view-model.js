@@ -219,13 +219,13 @@ let viewModel = function() {
     "Photoshop</div>" +
     "<div class='skill'>" +
     "<img src='Images/skill-high.png' width='30' height='30'>" +
-    "Microsoft Office</div></div>" +
+    "Microsoft Office</div>" +
     "<div class='skill'>" +
     "<img src='Images/skill-high.png' width='30' height='30'>" +
-    "Git</div></div>" +
+    "Git</div>" +
     "<div class='skill'>" +
     "<img src='Images/skill-moderate.png' width='30' height='30'>" +
-    "Bootstrap</div></div>" +
+    "Bootstrap</div>" +
     "<div class='skill'>" +
     "<img src='Images/skill-moderate.png' width='30' height='30'>" +
     "Flask</div></div>");
