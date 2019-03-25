@@ -158,6 +158,8 @@ let viewModel = function() {
     self.selectedLink()[2] = true;
     self.selectedLink.valueHasMutated();
 
+    // Need to add bootstrap and flask
+
     self.section1("<div class='skills-key'><img class='skill-pic' src='Images/skill-high.png' width='30' height='30'>Highly Skilled" +
     "<img class='skill-pic' src='Images/skill-moderate.png' width='30' height='30'>Moderately Skilled" +
     "<img class='skill-pic' src='Images/skill-beginner.png' width='30' height='30'>Beginner</div><h3>Skills</h3>" +
@@ -217,7 +219,16 @@ let viewModel = function() {
     "Photoshop</div>" +
     "<div class='skill'>" +
     "<img src='Images/skill-high.png' width='30' height='30'>" +
-    "Microsoft Office</div></div>");
+    "Microsoft Office</div></div>" +
+    "<div class='skill'>" +
+    "<img src='Images/skill-high.png' width='30' height='30'>" +
+    "Git</div></div>" +
+    "<div class='skill'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
+    "Bootstrap</div></div>" +
+    "<div class='skill'>" +
+    "<img src='Images/skill-moderate.png' width='30' height='30'>" +
+    "Flask</div></div>");
 
     self.section2("<h3>Short Bio</h3>" +
     "<img src='Images/portrait.jpg' align='right'>" +
