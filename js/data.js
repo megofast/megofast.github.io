@@ -5,7 +5,7 @@ const project_data = [
   {name: 'Calculator', langs: ['Java'], link: 'link',
   description: 'This is an advanced calculator made with Java. This calculator can calculate basic math, interest rates, and much more!',
   image: 'Images/background2.png', featured: false, other: ''},
-  {name: 'Neighborhood Mapper', langs: ['Javascript', 'AJAX', 'CSS', 'HTML', 'Knockout JS', 'Bootstrap'],
+  {name: 'Neighborhood Mapper', langs: ['Javascript', 'CSS', 'HTML', 'Knockout JS', 'Bootstrap'],
   link: 'https://github.com/megofast/Neighborhood-Mapper',
   description: 'A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of interest. Users can search and select landmarks from a list to easily locate a given landmark. When a landmark is clicked more information is displayed from the Yelp API.',
   image: 'Images/background3.png', featured: true, other: ''},
