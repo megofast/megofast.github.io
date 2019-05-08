@@ -16,7 +16,7 @@ let viewModel = function() {
     "<h4 class='card_h4 fix-display'>" + data.name() + "</h4><a target='_blank' href='" + data.link() + "'><img class='popup-git-image' src='Images/icons/github-sign.png'></a>" +
     "<h5 class='card_h5'>" + data.langs() + "</h5>" +
     "<h5 class='card_h5'><a target='_blank' href='" + data.link() +"'>View Code on Github</a></h5>" +
-    "<h5 class='card_h5'>" + data.other() + "</h5>" +
+    "<h5 class='card_h5'><a target='_blank' href='" + data.other() +"'>View Website</a></h5>" +
     "<p class='card_p'>" + data.description() + "</p>" +
     "</article>");
   };
