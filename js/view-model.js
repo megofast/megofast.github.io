@@ -9,14 +9,18 @@ let viewModel = function() {
   self.filterText = ko.observable();
 
   self.show_popup = function (data) {
-    var modal = document.getElementById('popup');
+    let modal = document.getElementById('popup');
+    let sample_site = '';
+    if (data.other() != '') {
+      // The other field has a link in it, show the website section.
+      sample_site = "<h5 class='card_h5'><a target='_blank' href='" + data.other() +"'>View Website</a></h5>";
     modal.style.display = "block";
     self.popupSection("<article><span class='close' onclick='closePopup()'>&times;</span>" +
     "<img class='card_image' src=" + data.image() + ">" +
     "<h4 class='card_h4 fix-display'>" + data.name() + "</h4><a target='_blank' href='" + data.link() + "'><img class='popup-git-image' src='Images/icons/github-sign.png'></a>" +
     "<h5 class='card_h5'>" + data.langs() + "</h5>" +
     "<h5 class='card_h5'><a target='_blank' href='" + data.link() +"'>View Code on Github</a></h5>" +
-    "<h5 class='card_h5'><a target='_blank' href='" + data.other() +"'>View Website</a></h5>" +
+    sample_site +
     "<p class='card_p'>" + data.description() + "</p>" +
     "</article>");
   };
