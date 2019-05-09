@@ -9,12 +9,17 @@ let viewModel = function() {
   self.filterText = ko.observable();
 
   self.show_popup = function (data) {
+<<<<<<< HEAD
+    let modal = document.getElementById('popup');
+||||||| merged common ancestors
+    var modal = document.getElementById('popup');
+=======
     let modal = document.getElementById('popup');
     let sample_site = '';
     if (data.other() != '') {
       // The other field has a link in it, show the website section.
       sample_site = "<h5 class='card_h5'><a target='_blank' href='" + data.other() +"'>View Website</a></h5>";
-    }
+>>>>>>> b9ef5f6a041ae2929a417a9a22391e6a36fa05de
     modal.style.display = "block";
     self.popupSection("<article><span class='close' onclick='closePopup()'>&times;</span>" +
     "<img class='card_image' src=" + data.image() + ">" +
