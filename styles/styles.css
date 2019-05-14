@@ -372,3 +372,8 @@ footer {
   margin: 0 5px 0 20px;
   border-radius: 50%;
 }
+
+.bcard {
+  width: 350px;
+  height: 200px;
+}

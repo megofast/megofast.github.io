@@ -8,6 +8,13 @@ let viewModel = function() {
   self.popupSection = ko.observable();
   self.filterText = ko.observable();
 
+  self.show_contact_popup = function (data) {
+    let modal = document.getElementById('popup');
+    modal.style.display = "block";
+    self.popupSection("<span class='close' onclick='closePopup()'>&times;</span>" +
+    "<img class='bcard' src='Images/business-card-front-nophone.png' />");
+  };
+
   self.show_popup = function (data) {
     let modal = document.getElementById('popup');
     let sample_site = '';
@@ -257,15 +264,10 @@ let viewModel = function() {
   };
 
   self.show_contact = function() {
-    // Change the selected link variable
-    for (let i = 0; i < self.selectedLink().length; i++) {
-      self.selectedLink()[i] = false;
-    }
-    self.selectedLink()[3] = true;
-    self.selectedLink.valueHasMutated();
+    
 
     // Contacts page is incomplete, redirect to the about page
-    self.show_about();
+    self.show_contact_popup();
   };
 
   self.add_projects = function() {
